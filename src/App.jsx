@@ -8,9 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>
-        Tiara dwi andini
-      </h1>
+      <h1>ubah dari punya tiara</h1>
     </>
   );
 }
