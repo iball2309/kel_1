@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
-        perferendis.
+        Tiara dwi andini
       </h1>
     </>
   );
