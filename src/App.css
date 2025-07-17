@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 @import "@fontsource/mochiy-pop-one";
-s #root {
+/* @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"); */
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -9,9 +10,17 @@ s #root {
 }
 
 .custom-navbar {
-  background-color: transparent;
   font-family: "Mochiy Pop One", sans-serif;
   color: white;
+}
+
+.slogan {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.custom-footer {
 }
 
 @keyframes logo-spin {

@@ -5,10 +5,12 @@ import Hero from "../assets/molekuls/hero";
 function Home() {
   return (
     <>
-      <div style={{ marginBottom: "50px" }}>
-        <Hero />
+      <div className="flex flex-col min-h-screen">
+        <div style={{ marginBottom: "50px" }}>
+          <Hero />
+        </div>
+        <Content />
       </div>
-      <Content />
     </>
   );
 }
