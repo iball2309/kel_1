@@ -22,11 +22,49 @@ function Navbar() {
                 />
               </svg>
             </div>
+            {/* Mobile */}
+            <ul
+              tabIndex={0}
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "text-blue-500 font-bold" : "text-white"
+                  }
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/about"
+                  className={({ isActive }) =>
+                    isActive ? "text-blue-500 font-bold" : "text-white"
+                  }
+                >
+                  About
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive ? "text-blue-500 font-bold" : "text-white"
+                  }
+                >
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
           </div>
           <a className="text-xl text-white" style={{ marginLeft: "50px" }}>
-            Kelokmpok I
+            Kelompok I
           </a>
         </div>
+
+        {/* MENU DESKTOP */}
         <div className="navbar-center hidden lg:flex">
           <ul
             className="menu menu-horizontal px-1"
@@ -70,4 +108,5 @@ function Navbar() {
     </>
   );
 }
+
 export default Navbar;

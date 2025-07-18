@@ -6,10 +6,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .custom-navbar {
@@ -26,13 +22,17 @@
 .about-custom {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
+  margin-left: 50px;
+  margin-top: 70px;
 }
 .text-about {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.contact-custom {
+  margin-top: 1000px;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
